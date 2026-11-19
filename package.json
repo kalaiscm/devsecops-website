@@ -1,0 +1,31 @@
+{
+  "name": "devsecops-infrastructure-website",
+  "version": "1.0.0",
+  "description": "Professional portfolio website about DevSecOps, Cloud Infrastructure, AWS, and GitLab to GitHub migrations",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "build": "mkdir -p dist && cp -r . dist/ && rm -rf dist/node_modules",
+    "dev": "python -m http.server 3000",
+    "deploy": "npm run build && wrangler pages deploy dist"
+  },
+  "keywords": [
+    "DevSecOps",
+    "Cloud Infrastructure",
+    "AWS",
+    "GitLab",
+    "GitHub",
+    "CI/CD",
+    "Kubernetes",
+    "Docker",
+    "Portfolio"
+  ],
+  "author": "DevSecOps Expert",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.60.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

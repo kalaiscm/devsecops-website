@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DevSecOps & Cloud Infrastructure - AWS End-to-End Solutions, GitLab to GitHub Migration, Security-First CI/CD">
+    <meta name="keywords" content="DevSecOps, Cloud Infrastructure, AWS, GitLab, GitHub, CI/CD, Security">
+    <meta name="author" content="DevSecOps Expert">
+    <title>DevSecOps & Cloud Infrastructure</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo-icon">⚙️</span>
+                <span class="logo-text">DevSecOps Hub</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#expertise" class="nav-link">Expertise</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#profile" class="nav-link">Profile</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Cloud Infrastructure & DevSecOps Excellence</h1>
+                <p class="hero-subtitle">Expert guidance on AWS cloud architecture, secure CI/CD pipelines, and seamless platform migrations</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Explore Services</a>
+                    <a href="#profile" class="btn btn-secondary">Learn About Me</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-block">
+                    <div class="code-header">
+                        <span class="code-dot"></span>
+                        <span class="code-dot"></span>
+                        <span class="code-dot"></span>
+                    </div>
+                    <code>
+$ aws ec2 describe-instances \<br>
+&nbsp;&nbsp;--region us-east-1<br>
+<br>
+$ git flow feature start security<br>
+<br>
+$ kubectl apply -f deployment.yaml<br>
+                    </code>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="expertise">
+        <div class="container">
+            <h2 class="section-title">Core Expertise</h2>
+            <p class="section-subtitle">Specialized skills and deep experience across cloud and security domains</p>
+            
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <div class="card-icon">☁️</div>
+                    <h3>AWS Cloud Architecture</h3>
+                    <p>End-to-end AWS solutions including EC2, S3, RDS, Lambda, VPC configuration, and cost optimization strategies</p>
+                    <div class="card-skills">
+                        <span class="skill-tag">EC2</span>
+                        <span class="skill-tag">S3</span>
+                        <span class="skill-tag">RDS</span>
+                        <span class="skill-tag">Lambda</span>
+                        <span class="skill-tag">VPC</span>
+                        <span class="skill-tag">IAM</span>
+                    </div>
+                </div>
+
+                <div class="expertise-card">
+                    <div class="card-icon">🔐</div>
+                    <h3>DevSecOps</h3>
+                    <p>Security-first CI/CD pipelines, vulnerability scanning, secrets management, and compliance automation</p>
+                    <div class="card-skills">
+                        <span class="skill-tag">SonarQube</span>
+                        <span class="skill-tag">SAST</span>
+                        <span class="skill-tag">DAST</span>
+                        <span class="skill-tag">Vault</span>
+                        <span class="skill-tag">IAM</span>
+                        <span class="skill-tag">Compliance</span>
+                    </div>
+                </div>
+
+                <div class="expertise-card">
+                    <div class="card-icon">🔄</div>
+                    <h3>GitLab to GitHub Migration</h3>
+                    <p>Seamless platform migrations with CI/CD pipeline optimization, preserving git history and team workflows</p>
+                    <div class="card-skills">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitLab CI</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                        <span class="skill-tag">Pipeline</span>
+                        <span class="skill-tag">Migration</span>
+                        <span class="skill-tag">Automation</span>
+                    </div>
+                </div>
+
+                <div class="expertise-card">
+                    <div class="card-icon">🐳</div>
+                    <h3>Container & Orchestration</h3>
+                    <p>Docker containerization, Kubernetes deployment, service mesh configuration, and container registry management</p>
+                    <div class="card-skills">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Helm</span>
+                        <span class="skill-tag">ECR</span>
+                        <span class="skill-tag">Service Mesh</span>
+                        <span class="skill-tag">ArgoCD</span>
+                    </div>
+                </div>
+
+                <div class="expertise-card">
+                    <div class="card-icon">📊</div>
+                    <h3>Monitoring & Observability</h3>
+                    <p>Comprehensive monitoring stacks, log aggregation, alerting systems, and performance optimization</p>
+                    <div class="card-skills">
+                        <span class="skill-tag">Prometheus</span>
+                        <span class="skill-tag">Grafana</span>
+                        <span class="skill-tag">ELK Stack</span>
+                        <span class="skill-tag">CloudWatch</span>
+                        <span class="skill-tag">Datadog</span>
+                        <span class="skill-tag">APM</span>
+                    </div>
+                </div>
+
+                <div class="expertise-card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Infrastructure as Code</h3>
+                    <p>Terraform, CloudFormation, and Ansible for reproducible, scalable infrastructure deployment</p>
+                    <div class="card-skills">
+                        <span class="skill-tag">Terraform</span>
+                        <span class="skill-tag">CloudFormation</span>
+                        <span class="skill-tag">Ansible</span>
+                        <span class="skill-tag">CDK</span>
+                        <span class="skill-tag">Version Control</span>
+                        <span class="skill-tag">GitOps</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Services & Solutions</h2>
+            <p class="section-subtitle">Comprehensive offerings to transform your infrastructure and security posture</p>
+            
+            <div class="services-grid">
+                <div class="service-item">
+                    <div class="service-number">01</div>
+                    <h3>AWS Architecture & Optimization</h3>
+                    <p>Design scalable, cost-effective AWS solutions tailored to your business needs. Includes cost analysis, performance tuning, and best practices implementation.</p>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-number">02</div>
+                    <h3>CI/CD Pipeline Development</h3>
+                    <p>Build secure, automated CI/CD pipelines using GitHub Actions, GitLab CI, or Jenkins with integrated security scanning and compliance checks.</p>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-number">03</div>
+                    <h3>Security & Compliance</h3>
+                    <p>Implement DevSecOps practices, vulnerability management, secrets rotation, and compliance automation for regulatory requirements.</p>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-number">04</div>
+                    <h3>Platform Migration</h3>
+                    <p>Seamless GitLab to GitHub or other platform migrations with zero downtime, pipeline transformation, and team onboarding support.</p>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-number">05</div>
+                    <h3>Kubernetes & Containerization</h3>
+                    <p>Deploy and manage containerized applications on Kubernetes with security hardening, networking policies, and GitOps workflows.</p>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-number">06</div>
+                    <h3>Monitoring & Alerting</h3>
+                    <p>Establish comprehensive observability with centralized logging, metrics collection, and intelligent alerting for proactive incident response.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section id="profile" class="profile">
+        <div class="container">
+            <div class="profile-content">
+                <div class="profile-header">
+                    <div class="profile-avatar">
+                        <div class="avatar-placeholder">🚀</div>
+                    </div>
+                    <div class="profile-info">
+                        <h1 class="profile-name">DevSecOps Expert</h1>
+                        <p class="profile-title">DevSecOps Specialist</p>
+                        <p class="profile-bio">Expert in seamless GitLab to GitHub migrations with CI/CD pipeline optimization</p>
+                    </div>
+                </div>
+
+                <div class="profile-details">
+                    <div class="detail-block">
+                        <h3>About Me</h3>
+                        <p>Passionate about building secure, scalable cloud infrastructure and automating everything. With deep expertise in AWS, Kubernetes, and DevSecOps practices, I help organizations transform their infrastructure and embrace security as a first-class citizen in their development lifecycle.</p>
+                        <p>Specializing in platform migrations, CI/CD optimization, and implementing comprehensive security frameworks without compromising velocity.</p>
+                    </div>
+
+                    <div class="detail-block">
+                        <h3>Key Achievements</h3>
+                        <ul class="achievement-list">
+                            <li>✅ Migrated 50+ GitLab projects to GitHub with zero downtime</li>
+                            <li>✅ Implemented security scanning in 100+ CI/CD pipelines</li>
+                            <li>✅ Architected cost-optimized AWS infrastructure saving 40% monthly spend</li>
+                            <li>✅ Established Kubernetes platforms managing 1000+ microservices</li>
+                            <li>✅ Automated compliance and audit workflows for regulatory frameworks</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-block">
+                        <h3>Technical Stack</h3>
+                        <div class="tech-grid">
+                            <div class="tech-category">
+                                <h4>Cloud</h4>
+                                <span class="tech-item">AWS</span>
+                                <span class="tech-item">Azure</span>
+                                <span class="tech-item">GCP</span>
+                            </div>
+                            <div class="tech-category">
+                                <h4>Platforms</h4>
+                                <span class="tech-item">GitHub</span>
+                                <span class="tech-item">GitLab</span>
+                                <span class="tech-item">Jenkins</span>
+                            </div>
+                            <div class="tech-category">
+                                <h4>Container & Orchestration</h4>
+                                <span class="tech-item">Docker</span>
+                                <span class="tech-item">Kubernetes</span>
+                                <span class="tech-item">Helm</span>
+                            </div>
+                            <div class="tech-category">
+                                <h4>Security</h4>
+                                <span class="tech-item">SonarQube</span>
+                                <span class="tech-item">Vault</span>
+                                <span class="tech-item">Falco</span>
+                            </div>
+                            <div class="tech-category">
+                                <h4>IaC</h4>
+                                <span class="tech-item">Terraform</span>
+                                <span class="tech-item">CloudFormation</span>
+                                <span class="tech-item">Ansible</span>
+                            </div>
+                            <div class="tech-category">
+                                <h4>Observability</h4>
+                                <span class="tech-item">Prometheus</span>
+                                <span class="tech-item">Grafana</span>
+                                <span class="tech-item">ELK</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="profile-links">
+                    <a href="https://github.com/kalaiscm" target="_blank" class="social-link github">GitHub</a>
+                    <a href="https://linkedin.com" target="_blank" class="social-link linkedin">LinkedIn</a>
+                    <a href="mailto:mkalaivani633@gmail.com" class="social-link email">Email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Have a project or question? Let's connect!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <span class="info-icon">📧</span>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:mkalaivani633@gmail.com">mkalaivani633@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">💻</span>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p><a href="https://github.com/kalaiscm" target="_blank">github.com/kalaiscm</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">🔗</span>
+                        <div>
+                            <h4>Connect</h4>
+                            <p>Open for collaborations, mentoring, and interesting projects</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <p class="form-note">Currently accepting new opportunities and project collaborations</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 DevSecOps & Cloud Infrastructure. All rights reserved.</p>
+                <p>Hosted on <a href="https://pages.cloudflare.com/" target="_blank">Cloudflare Pages</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
