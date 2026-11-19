@@ -104,6 +104,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: var(--spacing-lg);
+    color: #ffffff;
 }
 
 h1 {
@@ -124,7 +125,7 @@ h4 {
 
 p {
     margin-bottom: var(--spacing-md);
-    color: var(--text-light);
+    color: #c9d1d9;
 }
 
 a {
@@ -451,18 +452,20 @@ section {
 }
 
 .profile-info h1 {
-    color: var(--text-dark);
+    color: #ffffff;
+    font-size: var(--font-size-5xl);
 }
 
 .profile-title {
-    color: var(--primary-color);
+    color: #00d4ff;
     font-size: var(--font-size-lg);
     font-weight: 600;
     margin-bottom: var(--spacing-sm);
 }
 
 .profile-bio {
-    color: var(--text-light);
+    color: #c9d1d9;
+    font-size: var(--font-size-base);
 }
 
 .profile-details {
