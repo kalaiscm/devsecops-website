@@ -482,8 +482,10 @@ section {
 }
 
 .detail-block h3 {
-    color: var(--text-dark);
+    color: #ffffff;
     margin-bottom: var(--spacing-lg);
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
 }
 
 .achievement-list {
@@ -493,8 +495,9 @@ section {
 }
 
 .achievement-list li {
-    color: var(--text-light);
+    color: #c9d1d9;
     padding-left: var(--spacing-lg);
+    font-weight: 500;
 }
 
 .tech-grid {
@@ -512,8 +515,9 @@ section {
 .tech-item {
     display: block;
     padding: 0.5rem;
-    color: var(--text-light);
+    color: #b0b9c1;
     font-size: var(--font-size-sm);
+    font-weight: 500;
 }
 
 .profile-links {
